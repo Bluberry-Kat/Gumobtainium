@@ -1,0 +1,16 @@
+[
+{
+  "modid": "gumobtainium",
+  "name": "Gumobtainium",
+  "description": "Gum!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateJSON": "",
+  "authorList": ["Una Thompson (unascribed)"],
+  "credits": "Kat, for the idea and most textures",
+  "logoFile": "assets/textures/items/gumobtainium.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

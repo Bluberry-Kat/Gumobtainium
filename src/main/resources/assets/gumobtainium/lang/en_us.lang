@@ -1,0 +1,28 @@
+itemGroup.gumobtainium=§dGumobtainium
+
+item.gumobtainium.gelatin_nugget.name=Gelatin Nugget
+item.gumobtainium.gelatin.name=Gelatin
+item.gumobtainium.gumobtainium.name=Gumobtainium
+item.gumobtainium.gumobtainium.tooltip.0=Tastes like chalk, with a floral aftertaste.
+item.gumobtainium.gumobtainium.tooltip.1=Makes you feel healthy.
+item.gumobtainium.gumbium.name=Gumbium
+item.gumobtainium.gumbium.tooltip.0=Tastes watery. It feels like it's moving.
+item.gumobtainium.gumbium.tooltip.1=Is this edible..?
+item.gumobtainium.lime_diamond.name=Carnation Crystal
+item.gumobtainium.lime_diamond.tooltip=
+item.gumobtainium.magenta_diamond.name=Camellia Crystal
+item.gumobtainium.magenta_diamond.tooltip=
+item.gumobtainium.solidified_gelatin_bucket.name=Bucket of Solidified Gelatin
+item.gumobtainium.vinegar.name=Vinegar
+
+msg.gumobtainium.heartLimit=It's turned stiff. Eating any more might break your teeth.
+msg.gumobtainium.alreadyHaveGumbium=It jumped out of your hands!
+
+fluid.gumobtainium.gelatin=Gelatin
+
+gui.jei.gumobtainium.lime_diamond=Drop exactly 4 lime dye and 1 diamond in a water source block. After %s second%s, the water and items will be consumed and a Carnation Crystal will be left behind. You know it's working if the items bubble.
+gui.jei.gumobtainium.magenta_diamond=Drop exactly 4 magenta dye and 1 diamond in a water source block. After %s second%s, the water and items will be consumed and a Camellia Crystal will be left behind. You know it's working if the items bubble.
+gui.jei.gumobtainium.gelatin=Drop exactly 4 of any raw meat in a water source block. After %s second%s, the meat will be consumed and the water will become gelatin. You know it's working if the items bubble.
+gui.jei.gumobtainium.gumbium=When eaten, prevents your hunger bar from going below half full. Can be removed with vinegar.
+gui.jei.gumobtainium.gumobtainium=When eaten, adds a gum heart that absorbs any amount of damage. Regenerates after 8 seconds of not taking damage. You may have up to %s gum hearts. Can be removed with vinegar.
+gui.jei.gumobtainium.vinegar=When quaffed, removes gum hearts or gumbium, in that order. You will not get the gumobtainium or gumbium back.
