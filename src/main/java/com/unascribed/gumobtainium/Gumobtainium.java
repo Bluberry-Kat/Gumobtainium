@@ -27,11 +27,13 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
+import net.minecraft.init.PotionTypes;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.FurnaceRecipes;
 import net.minecraft.item.crafting.IRecipe;
+import net.minecraft.potion.PotionUtils;
 import net.minecraft.util.ClassInheritanceMultiMap;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.ResourceLocation;
@@ -365,7 +367,7 @@ public class Gumobtainium {
 				'g', GELATIN,
 				'd', MAGENTA_DIAMOND).setRegistryName("gumobtainum"));
 		e.getRegistry().register(new ShapelessOreRecipe(null, VINEGAR,
-				Items.POTIONITEM.getDefaultInstance(), Items.SUGAR, Items.APPLE).setRegistryName("vinegar"));
+				PotionUtils.addPotionToItemStack(new ItemStack(Items.POTIONITEM), PotionTypes.WATER), Items.SUGAR, Items.APPLE).setRegistryName("vinegar"));
 	}
 	
 }
