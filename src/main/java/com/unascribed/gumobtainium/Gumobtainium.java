@@ -140,6 +140,7 @@ public class Gumobtainium {
 			Multimap<BlockPos, EntityItem> seenDyeOrDiamondEntities = ArrayListMultimap.create();
 			for (EntityItem ei : e.world.getEntities(EntityItem.class, Predicates.alwaysTrue())) {
 				ItemStack is = ei.getItem();
+				if (is.isEmpty()) continue;
 				int[] oreIds = OreDictionary.getOreIDs(is);
 				for (int ore : oreIds) {
 					if ("listAllMeatRaw".equals(OreDictionary.getOreName(ore))) {
@@ -188,6 +189,7 @@ public class Gumobtainium {
 				int diamond = 0;
 				for (EntityItem ei : en.getValue()) {
 					ItemStack is = ei.getItem();
+					if (is.isEmpty()) continue;
 					int[] oreIds = OreDictionary.getOreIDs(is);
 					for (int ore : oreIds) {
 						if ("gemDiamond".equals(OreDictionary.getOreName(ore))) {
