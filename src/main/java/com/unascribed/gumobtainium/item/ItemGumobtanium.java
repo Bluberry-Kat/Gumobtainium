@@ -28,7 +28,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class ItemGumobtanium extends ItemFood {
 
 	public ItemGumobtanium() {
-		super(0, 20, false);
+		super(1, 20, false);
 		setAlwaysEdible();
 	}
 	
