@@ -40,8 +40,10 @@ public class ClientProxy implements Proxy {
 		ModelLoader.setCustomModelResourceLocation(Gumobtainium.GELATIN, 0, new ModelResourceLocation(Gumobtainium.MODID+":gelatin#inventory"));
 		ModelLoader.setCustomModelResourceLocation(Gumobtainium.GELATIN_NUGGET, 0, new ModelResourceLocation(Gumobtainium.MODID+":gelatin_nugget#inventory"));
 		ModelLoader.setCustomModelResourceLocation(Gumobtainium.GUMBIUM, 0, new ModelResourceLocation(Gumobtainium.MODID+":gumbium#inventory"));
-		ModelLoader.setCustomModelResourceLocation(Gumobtainium.GUMOBTANIUM, 0, new ModelResourceLocation(Gumobtainium.MODID+":gumobtainium#inventory"));
+		ModelLoader.setCustomModelResourceLocation(Gumobtainium.GUMOBTAINIUM, 0, new ModelResourceLocation(Gumobtainium.MODID+":gumobtainium#inventory"));
 		ModelLoader.setCustomModelResourceLocation(Gumobtainium.VINEGAR, 0, new ModelResourceLocation(Gumobtainium.MODID+":vinegar#inventory"));
+		ModelLoader.setCustomModelResourceLocation(Gumobtainium.SPIRITMINT, 0, new ModelResourceLocation(Gumobtainium.MODID+":spiritmint_dark#inventory"));
+		ModelLoader.setCustomModelResourceLocation(Gumobtainium.SPIRITMINT, 1, new ModelResourceLocation(Gumobtainium.MODID+":spiritmint_light#inventory"));
 	}
 	
 	@SubscribeEvent

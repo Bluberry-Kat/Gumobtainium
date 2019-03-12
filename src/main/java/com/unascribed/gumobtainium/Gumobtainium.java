@@ -15,6 +15,7 @@ import com.unascribed.gumobtainium.item.ItemGelatin;
 import com.unascribed.gumobtainium.item.ItemGelatinNugget;
 import com.unascribed.gumobtainium.item.ItemGumbium;
 import com.unascribed.gumobtainium.item.ItemGumobtanium;
+import com.unascribed.gumobtainium.item.ItemSpiritmint;
 import com.unascribed.gumobtainium.item.ItemVinegar;
 import com.unascribed.gumobtainium.network.MessageHUDUpdate;
 import com.unascribed.gumobtainium.network.MessageItemSoaking;
@@ -84,8 +85,9 @@ public class Gumobtainium {
 	public static ItemGelatin GELATIN;
 	public static ItemGelatinNugget GELATIN_NUGGET;
 	public static ItemGumbium GUMBIUM;
-	public static ItemGumobtanium GUMOBTANIUM;
+	public static ItemGumobtanium GUMOBTAINIUM;
 	public static ItemVinegar VINEGAR;
+	public static ItemSpiritmint SPIRITMINT;
 	
 	public static Fluid GELATIN_FLUID;
 	public static BlockFluidGelatin GELATIN_FLUID_BLOCK;
@@ -96,7 +98,7 @@ public class Gumobtainium {
 	public static final CreativeTabs CREATIVE_TAB = new CreativeTabs(MODID) {
 		@Override
 		public ItemStack createIcon() {
-			return new ItemStack(GUMOBTANIUM);
+			return new ItemStack(GUMOBTAINIUM);
 		}
 	};
 	
@@ -336,11 +338,15 @@ public class Gumobtainium {
 		e.getRegistry().register(GUMBIUM = (ItemGumbium)new ItemGumbium()
 				.setRegistryName("gumbium").setTranslationKey(MODID+".gumbium")
 				.setCreativeTab(CREATIVE_TAB));
-		e.getRegistry().register(GUMOBTANIUM = (ItemGumobtanium)new ItemGumobtanium()
+		e.getRegistry().register(GUMOBTAINIUM = (ItemGumobtanium)new ItemGumobtanium()
 				.setRegistryName("gumobtainium").setTranslationKey(MODID+".gumobtainium")
 				.setCreativeTab(CREATIVE_TAB));
 		e.getRegistry().register(VINEGAR = (ItemVinegar)new ItemVinegar()
 				.setRegistryName("vinegar").setTranslationKey(MODID+".vinegar")
+				.setMaxStackSize(1)
+				.setCreativeTab(CREATIVE_TAB));
+		e.getRegistry().register(SPIRITMINT = (ItemSpiritmint)new ItemSpiritmint()
+				.setRegistryName("spiritmint").setTranslationKey(MODID+".spiritmint")
 				.setMaxStackSize(1)
 				.setCreativeTab(CREATIVE_TAB));
 	}
@@ -362,7 +368,7 @@ public class Gumobtainium {
 				" g ",
 				'g', GELATIN,
 				'd', LIME_DIAMOND).setRegistryName("gumbium"));
-		e.getRegistry().register(new ShapedOreRecipe(null, GUMOBTANIUM,
+		e.getRegistry().register(new ShapedOreRecipe(null, GUMOBTAINIUM,
 				" g ",
 				"gdg",
 				" g ",

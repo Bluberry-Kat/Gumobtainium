@@ -24,7 +24,7 @@ public class GumobtainiumJEIPlugin implements IModPlugin {
 				I18n.format("gui.jei.gumobtainium.gelatin", secs, s));
 		registry.addIngredientInfo(new FluidStack(Gumobtainium.GELATIN_FLUID, 1000), FluidStack.class,
 				I18n.format("gui.jei.gumobtainium.gelatin", secs, s));
-		registry.addIngredientInfo(new ItemStack(Gumobtainium.GUMOBTANIUM), ItemStack.class,
+		registry.addIngredientInfo(new ItemStack(Gumobtainium.GUMOBTAINIUM), ItemStack.class,
 				I18n.format("gui.jei.gumobtainium.gumobtainium", Gumobtainium.maxGumHearts));
 		registry.addIngredientInfo(new ItemStack(Gumobtainium.GUMBIUM), ItemStack.class, "gui.jei.gumobtainium.gumbium");
 		registry.addIngredientInfo(new ItemStack(Gumobtainium.VINEGAR), ItemStack.class, "gui.jei.gumobtainium.vinegar");
