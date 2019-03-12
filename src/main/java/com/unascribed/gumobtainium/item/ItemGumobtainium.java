@@ -25,9 +25,9 @@ import net.minecraftforge.fluids.FluidUtil;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class ItemGumobtanium extends ItemFood {
+public class ItemGumobtainium extends ItemFood {
 
-	public ItemGumobtanium() {
+	public ItemGumobtainium() {
 		super(1, 20, false);
 		setAlwaysEdible();
 	}

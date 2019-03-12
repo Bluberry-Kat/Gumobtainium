@@ -14,7 +14,7 @@ import com.unascribed.gumobtainium.block.BlockFluidGelatin;
 import com.unascribed.gumobtainium.item.ItemGelatin;
 import com.unascribed.gumobtainium.item.ItemGelatinNugget;
 import com.unascribed.gumobtainium.item.ItemGumbium;
-import com.unascribed.gumobtainium.item.ItemGumobtanium;
+import com.unascribed.gumobtainium.item.ItemGumobtainium;
 import com.unascribed.gumobtainium.item.ItemSpiritmint;
 import com.unascribed.gumobtainium.item.ItemVinegar;
 import com.unascribed.gumobtainium.network.MessageHUDUpdate;
@@ -85,7 +85,7 @@ public class Gumobtainium {
 	public static ItemGelatin GELATIN;
 	public static ItemGelatinNugget GELATIN_NUGGET;
 	public static ItemGumbium GUMBIUM;
-	public static ItemGumobtanium GUMOBTAINIUM;
+	public static ItemGumobtainium GUMOBTAINIUM;
 	public static ItemVinegar VINEGAR;
 	public static ItemSpiritmint SPIRITMINT;
 	
@@ -338,7 +338,7 @@ public class Gumobtainium {
 		e.getRegistry().register(GUMBIUM = (ItemGumbium)new ItemGumbium()
 				.setRegistryName("gumbium").setTranslationKey(MODID+".gumbium")
 				.setCreativeTab(CREATIVE_TAB));
-		e.getRegistry().register(GUMOBTAINIUM = (ItemGumobtanium)new ItemGumobtanium()
+		e.getRegistry().register(GUMOBTAINIUM = (ItemGumobtainium)new ItemGumobtainium()
 				.setRegistryName("gumobtainium").setTranslationKey(MODID+".gumobtainium")
 				.setCreativeTab(CREATIVE_TAB));
 		e.getRegistry().register(VINEGAR = (ItemVinegar)new ItemVinegar()
