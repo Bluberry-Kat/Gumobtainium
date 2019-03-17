@@ -29,6 +29,11 @@ public class ItemSpiritmint extends ItemFood {
 	}
 
 	
+//	@Override
+//	public boolean shouldCauseReequipAnimation(ItemStack oldStack, ItemStack newStack, boolean slotChanged) {
+//		return oldStack.getItem() != newStack.getItem() || slotChanged;
+//	}
+	
 	@Override
 	public void onUpdate(ItemStack stack, World worldIn, Entity entityIn, int itemSlot, boolean isSelected) {
 		BlockPos pos = entityIn.getPosition();
