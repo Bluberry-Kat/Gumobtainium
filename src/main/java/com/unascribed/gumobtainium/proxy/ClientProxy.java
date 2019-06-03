@@ -47,7 +47,7 @@ public class ClientProxy implements Proxy {
 		ModelLoader.setCustomModelResourceLocation(Gumobtainium.SPIRITMINT, 1, new ModelResourceLocation(Gumobtainium.MODID+":spiritmint_light#inventory"));
 	}
 	
-	@SubscribeEvent(priority = EventPriority.LOWEST)
+	@SubscribeEvent
 	public void onRenderOverlayPost(RenderGameOverlayEvent.Post e) {
 		Minecraft mc = Minecraft.getMinecraft();
 		if (e.getType() == ElementType.HEALTH) {
