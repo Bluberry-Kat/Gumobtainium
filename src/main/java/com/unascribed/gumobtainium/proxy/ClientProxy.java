@@ -19,6 +19,7 @@ import net.minecraftforge.client.event.RenderGameOverlayEvent.ElementType;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
+import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class ClientProxy implements Proxy {
@@ -46,7 +47,7 @@ public class ClientProxy implements Proxy {
 		ModelLoader.setCustomModelResourceLocation(Gumobtainium.SPIRITMINT, 1, new ModelResourceLocation(Gumobtainium.MODID+":spiritmint_light#inventory"));
 	}
 	
-	@SubscribeEvent
+	@SubscribeEvent(priority = EventPriority.LOWEST)
 	public void onRenderOverlayPost(RenderGameOverlayEvent.Post e) {
 		Minecraft mc = Minecraft.getMinecraft();
 		if (e.getType() == ElementType.HEALTH) {
