@@ -26,6 +26,9 @@ public class ItemVinegar extends Item {
 		
 		if (GumData.getGumHearts(entityLiving) > 0) {
 			GumData.setGumHearts(entityLiving, GumData.getGumHearts(entityLiving)-1);
+			if (GumData.getFilledGumHearts(entityLiving) > GumData.getGumHearts(entityLiving)) {
+				GumData.setFilledGumHearts(entityLiving,  GumData.getFilledGumHearts(entityLiving)-1);
+			}
 		} else if (GumData.hasGumbium(entityLiving)) {
 			entityLiving.playSound(SoundEvents.ENTITY_RABBIT_DEATH, 1.0f, 0.7f);
 			GumData.setHasGumbium(entityLiving, false);
