@@ -16,7 +16,7 @@ item.gumobtainium.solidified_gelatin_bucket.name=Bucket of Solidified Gelatin
 item.gumobtainium.vinegar.name=Vinegar
 item.gumobtainium.spiritmint.name=Spiritmint
 item.gumobtainium.spiritmint.tooltip.0=Minty.
-item.gumobtainium.spiritmint.tooltip.1=Seems to dance with the dark.
+item.gumobtainium.spiritmint.tooltip.1=Light up the night.
 
 msg.gumobtainium.heartLimit=It's turned stiff. Eating any more might break your teeth.
 msg.gumobtainium.alreadyHaveGumbium=It jumped out of your hands!
