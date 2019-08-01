@@ -1,0 +1,31 @@
+itemGroup.gumobtainium=§dGumobtainium
+
+item.gumobtainium.gelatin_nugget.name=Pépite de gélatine
+item.gumobtainium.gelatin.name=Gélatine
+item.gumobtainium.gumobtainium.name=Gumobtainium
+item.gumobtainium.gumobtainium.tooltip.0=Un goût de craie, avec un arrière-goût floral.
+item.gumobtainium.gumobtainium.tooltip.1=Vous fait sentir sain.
+item.gumobtainium.gumbium.name=Gumbium
+item.gumobtainium.gumbium.tooltip.0=Un goût d'eau. On dirait que ça bouge.
+item.gumobtainium.gumbium.tooltip.1=Est-ce comestible... ?
+item.gumobtainium.lime_diamond.name=Cristal d'œillet
+item.gumobtainium.lime_diamond.tooltip=
+item.gumobtainium.magenta_diamond.name=Cristal de camélia
+item.gumobtainium.magenta_diamond.tooltip=
+item.gumobtainium.solidified_gelatin_bucket.name=Seau de gélatine solidifiée
+item.gumobtainium.vinegar.name=Vinaigre
+item.gumobtainium.spiritmint.name=Menthe spirituelle
+item.gumobtainium.spiritmint.tooltip.0=Un goût de menthe.
+item.gumobtainium.spiritmint.tooltip.1=Illumine la nuit.
+
+msg.gumobtainium.heartLimit=C'est devenu rigide. En manger plus pourrait casser vos dents.
+msg.gumobtainium.alreadyHaveGumbium=Ça a sauté hors de vos mains !
+
+fluid.gumobtainium.gelatin=Gélatine
+
+gui.jei.gumobtainium.lime_diamond=Placez exactement 4 teintures vert clair et 1 diamant dans une source d'eau. Après %s seconde%s, l'eau et les objets seront consommés pour produire un cristal d'œillet. Les bulles indique que cela fonctionne.
+gui.jei.gumobtainium.magenta_diamond=Placez exactement 4 teintures magenta et 1 diamant dans une source d'eau. Après %s seconde%s, l'eau et les objets seront consommés pour produire un cristal de camélia. Les bulles indique que cela fonctionne.
+gui.jei.gumobtainium.gelatin=Placez exactement 4 viandes crues dans une source d'eau. Après %s seconde%s, la viande sera consommée et l'eau deviendra de la gélatine. Les bulles indique que cela fonctionne.
+gui.jei.gumobtainium.gumbium=Quand mangé, empêche votre faim de descendre en dessous de la moitié. Peut être ôté avec du vinaigre.
+gui.jei.gumobtainium.gumobtainium=Quand mangé, ajoute un cœur de gomme qui absorbe n'importe quel montant de dégâts. Se régénére après n'avoir subit aucun dégât pendant 8 secondes. Vous pouvez avoir jusqu'à %s cœurs de gomme. Peut être ôté avec du vinaigre.
+gui.jei.gumobtainium.vinegar=Quand bu, enlève les cœurs de gomme de le gumbium, dans cet ordre. Ne redonne pas le gumobtainium ou le gumbium.
