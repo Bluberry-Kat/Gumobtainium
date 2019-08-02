@@ -49,5 +49,4 @@ public class GumData {
 			new MessageHUDUpdate(getFilledGumHearts(en), getGumHearts(en), hasGumbium(en)).sendTo((EntityPlayer)en);
 		}
 	}
-	
 }

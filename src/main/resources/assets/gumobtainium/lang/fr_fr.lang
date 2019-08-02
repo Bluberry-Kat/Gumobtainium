@@ -14,9 +14,6 @@ item.gumobtainium.magenta_diamond.name=Cristal de camélia
 item.gumobtainium.magenta_diamond.tooltip=
 item.gumobtainium.solidified_gelatin_bucket.name=Seau de gélatine solidifiée
 item.gumobtainium.vinegar.name=Vinaigre
-item.gumobtainium.spiritmint.name=Menthe spirituelle
-item.gumobtainium.spiritmint.tooltip.0=Un goût de menthe.
-item.gumobtainium.spiritmint.tooltip.1=Illumine la nuit.
 
 msg.gumobtainium.heartLimit=C'est devenu rigide. En manger plus pourrait casser vos dents.
 msg.gumobtainium.alreadyHaveGumbium=Ça a sauté hors de vos mains !

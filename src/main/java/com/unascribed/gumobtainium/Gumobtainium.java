@@ -345,10 +345,6 @@ public class Gumobtainium {
 				.setRegistryName("vinegar").setTranslationKey(MODID+".vinegar")
 				.setMaxStackSize(1)
 				.setCreativeTab(CREATIVE_TAB));
-		e.getRegistry().register(SPIRITMINT = (ItemSpiritmint)new ItemSpiritmint()
-				.setRegistryName("spiritmint").setTranslationKey(MODID+".spiritmint")
-				.setMaxStackSize(1)
-				.setCreativeTab(CREATIVE_TAB));
 	}
 	
 	@SubscribeEvent
