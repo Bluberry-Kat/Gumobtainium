@@ -1,6 +1,8 @@
 # Gumobtainium
 
-[>> Downloads <<](https://minecraft.curseforge.com/projects/gumobtainium)
+[>> Downloads <<](https://github.com/Birgliss/Gumobtainium/releases)
+
+[>> Curseforge <<](https://minecraft.curseforge.com/projects/gumobtainium)
 
 *A mod about gelatin. Adds candy-based consumable buffs.*
 
