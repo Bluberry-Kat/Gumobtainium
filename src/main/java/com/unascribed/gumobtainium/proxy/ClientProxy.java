@@ -45,8 +45,8 @@ public class ClientProxy implements Proxy {
 		ModelLoader.setCustomModelResourceLocation(Gumobtainium.VINEGAR, 0, new ModelResourceLocation(Gumobtainium.MODID+":vinegar#inventory"));
 	}
 	
-	@SubscribeEvent
-	public void onRenderOverlayPost(RenderGameOverlayEvent.Post e) {
+	@SubscribeEvent(priority=EventPriority.LOWEST, receiveCanceled = true)
+	public void onRenderOverlayPre(RenderGameOverlayEvent.Pre e) {
 		Minecraft mc = Minecraft.getMinecraft();
 		if (e.getType() == ElementType.HEALTH) {
 			if (GumData.getGumHearts(mc.player) > 0) {
@@ -65,7 +65,13 @@ public class ClientProxy implements Proxy {
 				}
 				mc.renderEngine.bindTexture(GuiIngameForge.ICONS);
 			}
-		} else if (e.getType() == ElementType.FOOD) {
+		}
+	}
+
+	@SubscribeEvent(priority=EventPriority.LOWEST, receiveCanceled = true)
+	public void onRenderOverlayPost(RenderGameOverlayEvent.Post e) {
+		Minecraft mc = Minecraft.getMinecraft();
+		if (e.getType() == ElementType.FOOD) {
 			if (GumData.hasGumbium(mc.player)) {
 				mc.renderEngine.bindTexture(GUI);
 				GlStateManager.enableAlpha();
